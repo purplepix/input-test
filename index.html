@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Teste Input</title>
+</head>
+
+<body>
+  <header>
+    <h1>Inputs</h1>
+  </header>
+
+  <main>
+    <section>
+      <div>
+        <p>Input que apenas com opção de câmera e galeria</p>
+        <input type='file' accept='image/*' />
+      </div>
+      <div>
+        <p>Input que apenas com opção de câmera</p>
+        <input type='file' accept='image/*' capture/>
+      </div>
+      <div>
+        <p>Input que apenas com opção de câmera traseira</p>
+        <input type='file' accept='image/*' capture='environment' />
+      </div>
+      <div>
+        <p>Input que apenas com opção de câmera frontal</p>
+        <input type='file' accept='image/*' capture='user' />
+      </div>
+      <div>
+        <p>Input que apenas com opção de câmera ou galeria</p>
+        <input type='file' accept='image/*capture=camera' />
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
